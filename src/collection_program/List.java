@@ -8,19 +8,28 @@ public class List {
 
 	public static void main(String[] args) 
 	{
-		// LinkedList<String> cars = new LinkedList<String>();
-		 ArrayList<String> cars = new ArrayList<String>();
+		////duplicates are allowed, follows order of insertion
+		
+		
+		LinkedList<String> cars = new LinkedList<String>();
+	 //ArrayList<String> cars = new ArrayList<String>();
 		    cars.add("Volvo");
 		    cars.add("BMW");
 		    cars.add("Ford");
 		    cars.add("Mazda");
+		    cars.add("Maruthi");
+		    cars.add("Maruthi");
+		    cars.add("Maruthi"); //duplicates are allowed 
+		    
+		    
 		    cars.add(null);
 		    cars.add(null);
 		    
 		    cars.add(1, "ABC");
-		    cars.set(2, "BCD");
-		    cars.remove(4);
+		    cars.set(5, "BCD");
 		    
+		    cars.remove(4);
+		    //cars.remove("BMW");
 		    
 		    //Collections.sort(cars);
 		    
