@@ -10,7 +10,7 @@ public class practise
 	int result = ++i;
 	int a = i++;
 	
-	//System.out.println(result);
+	System.out.println(result);
 	System.out.println(a);
 }
 }

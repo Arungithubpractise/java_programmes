@@ -8,6 +8,11 @@ public class maps {
 	public static void main(String[] args)
 	{
 	
+		
+	//Duplicate Keys ❌	                Not Allowed
+	//Duplicate Values ✅	            Allowed
+	//only one null key allowed 	    multiple null values allowed
+		
 		Map<Integer,String> map=new HashMap<Integer,String>();  
 	    //Adding elements to map  
 	    map.put(1,"Amit");  
@@ -15,7 +20,8 @@ public class maps {
 	    map.put(2,"Jai");  
 	    map.put(6,"Amit");  
 	    
-	  //  map.remove(1);
+	 // map.remove(1);
+	    map.remove("jai");
 	    
 	    for(Map.Entry m :  map.entrySet())
 	    {
